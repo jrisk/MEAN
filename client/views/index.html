@@ -11,7 +11,7 @@
 	<h1>What's up? How ya' doin'?</h1>
 	<!-- Meetups view -->
 	<div ng-controller="meetupsController">
-		<h2>There are {{meetupsCount}} Meetups</h2>
+		<h2>There are {{meetups.length}} Meetups</h2>
 		<ul>
 			<li ng-repeat="meetup in meetups">
 				{{meetup.name}}
